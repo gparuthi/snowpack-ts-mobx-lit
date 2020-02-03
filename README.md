@@ -1,4 +1,4 @@
-# 🖥️ create-pika-app
+# 🖥️ snowpack-ts-mobx-lit
 
 #### 🎉 `Snowpack` + `Typescript` + `Mobx` + `lit-element` + `lit-html` Example Project
 
