@@ -2,8 +2,6 @@
 
 #### 🎉 `Snowpack` + `Typescript` + `Mobx` + `lit-element` + `lit-html` Example Project
 
-<img width="500px" src="https://imgur.com/FpyU0Eg.png" align="right"></img>
-
 ## 🚀 Getting Started
 
 ```bash
@@ -29,6 +27,7 @@ If you want to use directives, you'll have to add them to the `webDependencies` 
 
 ### 🙏 Special Thanks
 
+[snowpack-init](https://github.com/pikapkg/snowpack-init)
 [@pika/web](https://github.com/pikapkg/web)  
 [lit-html](https://github.com/polymer/lit-html)
 [lit-element](https://github.com/polymer/lit-element)
