@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "target": "esnext",
+    "moduleResolution": "node",
+
+    "rootDir": "./src",
+    "outDir": "./dist",
+
+    "jsx": "react",
+    "jsxFactory": "h",
+
+    "baseUrl": ".",
+    "paths": {
+      "/web_modules/*.js": [
+        // "node_modules/*",
+        "web_modules/*.js",
+      ]
+    },
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "litele-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "snowpack --include",
+    "start": "serve ./"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "snowpack": {
+    "webDependencies": [
+      "lit-html",
+      "lit-element",
+      "lit-html/directives/until.js"
+    ],
+    "dedupe": [
+      "lit-element",
+      "lit-html"
+    ]
+  },
+  "dependencies": {
+    "@adobe/lit-mobx": "0.0.2",
+    "lit-element": "^2.2.1",
+    "lit-html": "^1.1.2",
+    "mobx": "^5.15.4"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4",
+    "@babel/preset-typescript": "^7.8.3",
+    "serve": "^11.3.0",
+    "snowpack": "^1.1.3",
+    "typescript": "^3.0.0"
+  }
+}
